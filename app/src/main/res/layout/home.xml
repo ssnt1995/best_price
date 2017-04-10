@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/gradient"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:text="My Friends"
+            android:textColor="#c5e98585"
+            android:id="@+id/myfrnd"
+            android:textSize="20dp"
+            android:background="@drawable/rounded"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/addnew"
+            android:layout_marginRight="20dp"
+            android:text="Add new friend"
+            android:textColor="#c5d4c340"
+            android:layout_below="@id/myfrnd"
+            android:textSize="20dp"
+            android:background="@drawable/rounded"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="new friend request"
+            android:textColor="#fd15c450"
+            android:layout_below="@id/addnew"
+            android:id="@+id/newfrnd"
+            android:textSize="20dp"
+            android:background="@drawable/rounded"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="add event"
+            android:id="@+id/addev"
+            android:textColor="#e7ce3d3d"
+            android:layout_below="@id/newfrnd"
+            android:textSize="20dp"
+            android:background="@drawable/rounded"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="near by"
+            android:textColor="#c54915a9"
+            android:layout_below="@id/addev"
+            android:id="@+id/nearby"
+            android:textSize="20dp"
+            android:background="@drawable/rounded"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:text="user profile"
+            android:textColor="#f5cc09ea"
+            android:layout_below="@id/nearby"
+            android:textSize="20dp"
+            android:background="@drawable/rounded"/>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

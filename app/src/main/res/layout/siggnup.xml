@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    >
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEST"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp"
+        android:id="@+id/signbest"
+        android:textColor="#de2222"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signbest"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="#cf1f1f"
+
+
+        android:text="P R I C E"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/name"
+        android:hint="Name"
+        android:layout_marginTop="150dp"
+        android:textColorHint="#000"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/name"
+        android:hint="EMAIL ADDRESS"
+        android:id="@+id/emailadd"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#000"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        
+        android:hint="Password"
+        android:id="@+id/passwordsign"
+        android:layout_below="@id/emailadd"
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        
+        android:hint="Confirm password"
+        android:layout_below="@id/passwordsign"
+        android:textColorHint="#000"
+        android:id="@+id/confirm"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        
+        android:hint="Contact no."
+        android:layout_below="@id/confirm"
+        android:layout_marginTop="10dp"
+        
+        android:textColorHint="#000"
+        android:id="@+id/contact"
+        
+        android:gravity="center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:onClick="signup"
+        android:clickable="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/contact"/>
+    
+    
+    
+
+
+
+
+
+
+
+
+</RelativeLayout>
